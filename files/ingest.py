@@ -112,7 +112,7 @@ if __name__ == "__main__":
     load_dotenv()
 
     # 1: Analyse le fichier PDF
-    file_path = "files/data/AASHTO LRFD BDS 9th Edition April 2020.pdf"
+    file_path = "files\data\CSA S6-19 Canadian Highway Bridge Design Code.pdf"
     raw_pages, metadata = parse_pdf(file_path)
 
     # 2: Création des morceaux de texte (chunks)
